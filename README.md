@@ -28,7 +28,12 @@
 	this proyec needs had intaled the java jdk
 	and needs JUnit to run the test
 
-# Usefull commands(Ubuntu 16)<h2>
+# How to run(Ubuntu 16)<h2>
+* run test 
 	after installing Junit run
 	javac -cp /usr/share/java/junit4.jar ErrorsTest.java Errors.java
 	java -cp /usr/share/java/junit4.jar:. org.junit.runner.JUnitCore ErrorsTest	
+* run app
+	javac Minesweeper.java
+	java Minesweeper
+		
