@@ -3,7 +3,7 @@
 	this is Minesweeper, in this program you can
 	interact with the game, it has the same rules 
 ==Rules: 
-*you've to enter the size of the board and
+*_ regla1_* you've to enter the size of the board and
 	the nomber of mines.
 *you've to enter the position of the cell
 	you want to select or mark
