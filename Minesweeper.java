@@ -1,7 +1,11 @@
 import java.util.Scanner;
 
-public class Minesweeper{
-    public static void main (String[] args){    
+public class Minesweeper{ 
+    /** 
+     * This is the main Minesweeper class
+     * here the programs interac with the user by the console
+     */
+    public static void main(String[] args){    
         String[] in;
         boolean playing=true;
         int height, width;
@@ -11,9 +15,11 @@ public class Minesweeper{
 
         System.out.println("Minesweeper");
         System.out.println("Enter height, width and mines");
+        
+        /** while the user doesn't enter a right imput program doesn't continue*/
         do{    
            in = sc.nextLine().split(" "); 
-        }while(!err.sizeSintaxCheck(in) || !err.sizeLogicCheck(in));
+        }while(!err.sizeSintaxCheck(in) || !err.sizeLogicCheck(in));      
         height=Integer.parseInt(in[0]);
         width=Integer.parseInt(in[1]);
         board.newGame(in);
@@ -36,6 +42,7 @@ public class Minesweeper{
             }else{
                 System.out.println("command no found");
             }
+            playing = board.win()&playing;
         }while(playing);
     }
 }

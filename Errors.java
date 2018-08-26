@@ -1,4 +1,9 @@
 public class Errors{
+    /**
+    * check if the input is syntactically right
+    * it's superter by a loop its insist 
+    * for a right input
+    */
     public boolean sizeSintaxCheck(String[] in){
         if(in.length==3){
             try{
@@ -14,6 +19,12 @@ public class Errors{
         System.out.println("Incorret number of arguments");
         return false;
     }
+ 
+    /**
+    * check if the input is logically right
+    * it's superter by a loop its insist 
+    * for a right input
+    */
     public boolean sizeLogicCheck(String[] in){
         int i = Integer.parseInt(in[0]);
         int j= Integer.parseInt(in[1]);
@@ -24,6 +35,12 @@ public class Errors{
         }
         return true;
     }
+    
+    /**
+    * check if the input is syntactically right
+    * it's superter by a loop its insist 
+    * for a right input
+    */
     public boolean inputSintaxCheck(String[] in){
         if(in.length==3){
             try{
@@ -42,6 +59,12 @@ public class Errors{
         System.out.println("Incorret number of arguments");
         return false;
     }
+    
+    /**
+    * check if the input is logically right
+    * it's superter by a loop its insist 
+    * for a right input
+    */
     public boolean inputLogicCheck(String[] in,int heigh,int width){
         try{           
             int i=Integer.parseInt(in[0]);
