@@ -24,7 +24,6 @@ public class Board{
         calcBoardNumbers();
         //printBoard();
         printBoard2();
-        printBoard3();
     }
 
     private int parse(String x){
