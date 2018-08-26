@@ -1,5 +1,5 @@
 == PSL-challange
-#Daniel Morales Londoño - dmoral12@eafit.edu.co
+'Daniel Morales Londoño - dmoral12@eafit.edu.co'
 	this is Minesweeper, in this program you can
 	interact with the game, it has the same rules 
 ==Rules: 
