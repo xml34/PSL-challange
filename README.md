@@ -27,6 +27,8 @@
 # Requeriments<h2>
 	this proyec needs had intaled the java jdk
 	and needs JUnit to run the test
+	the jdk that a used is 1.8.0_181
+	and the JUnit version is junit4
 
 # How to run(Ubuntu 16)<h2>
 * run test 
@@ -36,4 +38,4 @@
 * run app
 	javac Minesweeper.java
 	java Minesweeper
-		
+
